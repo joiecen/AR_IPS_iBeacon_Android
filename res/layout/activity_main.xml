@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+
+    
+    <com.example.yclocalization.AugmentedRealityView
+        android:id="@+id/augmentedRealityView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+    <com.example.yclocalization.MapView
+        android:id="@+id/myMap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/ycmap" />
+
+</FrameLayout>
